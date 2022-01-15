@@ -1,0 +1,303 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* =================
+Typography
+================= */
+
+.firsth {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+/* =================
+Layout
+================= */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+ 
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+    }
+}
+
+/* navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
+}
+
+
+.firstimg {
+    width: 80%;
+    margin: 20px auto;
+     
+}
+
+.coments {
+    color:#707070;
+    font-size: 0.8rem;
+    
+}
+
+.ta {
+    text-align: left;
+font: normal normal bold 18px/28px Ubuntu;
+letter-spacing: 3.6px;
+color: #707070;
+}
+
+.secondp {
+    font: normal normal 300 18px/28px Ubuntu;
+letter-spacing: 3.6px;
+color: #707070;
+font-size: 1em;
+}
+
+.firsta {
+    text-align: left;
+font: normal normal bold 14px/28px Ubuntu;
+letter-spacing: 2.8px;
+color: #1792D2;
+padding-bottom: 30px;
+text-decoration: none;
+}
+
+.hiii {
+    margin-top: 30px;
+    border-top: 2px solid gray;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-start;
+    column-gap: 40px;
+}
+
+.container2 img {
+   width: 198px;
+height: 242px;
+}
+
+.box1 h2{
+    margin-top: -1px;
+    text-align: left;
+font: normal normal normal 24px/28px Lora;
+letter-spacing: 4.8px;
+color: #143774;
+}
+
+.box1 p {
+    text-align: left;
+font: normal normal 300 18px/28px Ubuntu;
+letter-spacing: 3.6px;
+color: #707070;
+font-size: 1em;
+}
+
+.box1 a {
+    font: normal normal bold 14px/28px Ubuntu;
+letter-spacing: 2.8px;
+color: #1792D2;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.box1 h4 {
+    text-align: left;
+font: normal normal normal 14px/19px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+ 
+
+
+footer {
+    background-color: #143774;
+    padding: 30px;
+     margin-top: 30px;
+}
+
+
+footer p {
+    text-align: center;
+    
+font: normal normal 300 18px/28px Ubuntu;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+
+.box3 h1 {
+    text-align: left;
+font: normal normal bold 18px/28px Ubuntu;
+letter-spacing: 3.6px;
+color: #143774;
+margin-top: 10px;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.box3 img {
+    width: 95%;
+    display: block;
+    margin: 4px auto;
+}
+
+.box3 p {
+    text-align: left;
+font: normal normal 300 14px/24px Ubuntu;
+letter-spacing: 0px;
+padding-left: 4px;
+color: #143774;
+}
+
+
+ 
+.box3 {
+    background-color: white;
+    padding: 10px;
+}
+
+.first1 {
+    background-color: #EBEBEB;
+    padding: 10px;
+    margin-top: 21px;
+}
+
+
+
+
+@media screen and (max-width:650px)
+{
+    
+    .container {
+        flex-wrap: wrap;
+    }
+    
+    .box3 img {
+        width: 200px;
+    }
+    .box3 h1 {
+        text-align: center;
+        
+    }
+    
+    .box3 p {
+        text-align: center;
+    }
+    
+    
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container2 img {
+        display: block;
+        margin:10px auto;
+        width: 90%;
+    }
+    .box1 h2{
+        display: block;
+        margin:2px auto;
+        width: 90%;
+    }
+    
+    .box1 h4 {
+       display: block;
+        margin:7px auto;
+        width: 90%;
+    }
+    
+    .box1 p {
+        display: block;
+        margin:10px auto;
+        width: 90%;
+    }
+    
+    .box1 a {
+        display: block;
+        margin:0px auto;
+        width: 90%;
+    }
+}
